@@ -243,7 +243,7 @@ class Blockchain:
 # 实例化节点
 app = Flask(__name__)
 
-filepath = '/home/nsy1994/blockchain/'
+filepath = '/data/blockchain/'
 info_file = 'info.json'
 pdf_path = os.path.join(filepath, 'reports')
 
