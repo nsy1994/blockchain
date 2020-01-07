@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   blockchain_trace:
-    build: ../
+    build: ./
     container_name: "blockchain_trace"
     ports:
         - 5000:5000
