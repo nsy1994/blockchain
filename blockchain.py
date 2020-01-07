@@ -249,6 +249,7 @@ pdf_path = os.path.join(filepath, 'reports')
 
 if not os.path.exists(filepath):
     os.makedirs(filepath)
+    os.makedirs(pdf_path)
 
 try:
     # 取出节点地址
